@@ -1,0 +1,135 @@
+/*******************************************************************************
+ *                                                                             *
+ * Font			                                                               *
+ *                                                                             *
+ ******************************************************************************/
+
+@font-face {
+    font-family: OpenSans;
+    src: url('/fonts/OpenSans-Bold.ttf');
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Button  			                                                           *
+ *                                                                             *
+ ******************************************************************************/
+
+.halaman-utama {
+    -fx-graphic: url('/icons/icons8-home-20.png');
+}
+
+.daftar-menu {
+    -fx-graphic: url('/icons/icons8-food-18.png');
+}
+
+.laporan {
+    -fx-graphic: url('/icons/icons8-graph-report-20.png');
+}
+
+.keluar {
+    -fx-graphic: url('/icons/icons8-logout-rounded-left-20.png');
+}
+
+.halaman-utama:hover, .daftar-menu:hover, .laporan:hover, .keluar:hover {
+    -fx-background-color: #EAEAEA;
+    -fx-background-radius: 0;
+}
+
+.halaman-utama-pressed {
+    -fx-graphic: url('/icons/icons8-home-20.png');
+    -fx-background-color: #EAEAEA;
+    -fx-background-radius: 0;
+}
+
+.daftar-menu-pressed {
+    -fx-graphic: url('/icons/icons8-food-18.png');
+    -fx-background-color: #EAEAEA;
+    -fx-background-radius: 0;
+}
+
+.laporan-pressed {
+    -fx-graphic: url('/icons/icons8-graph-report-20.png');
+    -fx-background-color: #EAEAEA;
+    -fx-background-radius: 0;
+}
+
+.tambah {
+    -fx-graphic: url('/icons/icons8-plus-25.png');
+}
+
+.hapus {
+    -fx-graphic: url('/icons/icons8-delete-30.png');
+}
+
+.ubah {
+    -fx-graphic: url('/icons/icons8-compose-30.png');
+}
+
+.print-30 {
+    -fx-graphic: url('/icons/icons8-print-30.png');
+}
+
+.print-20 {
+    -fx-graphic: url('/icons/icons8-print-filled-20.png');
+}
+
+.simpan {
+    -fx-graphic: url('/icons/icons8-save-filled-20.png');
+}
+
+.terima {
+    -fx-graphic: url('/icons/icons8-checked-20.png');
+}
+
+.tolak {
+    -fx-graphic: url('/icons/icons8-waste-20.png');
+}
+
+.file {
+    -fx-graphic: url('/icons/icons8-split-files-25.png');
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Pane  			                                                           *
+ *                                                                             *
+ ******************************************************************************/
+
+ .body-white {
+    -fx-background-color: white;
+ }
+
+/*******************************************************************************
+ *                                                                             *
+ * Component   		                                                           *
+ *                                                                             *
+ ******************************************************************************/
+
+.tree-table-cell {
+    -fx-alignment: center;
+}
+
+.border {
+    -fx-border-width: 1;
+    -fx-border-color: #DADCE0;
+    -fx-border-radius: 5pt;
+}
+
+ /*******************************************************************************
+  *                                                                             *
+  * Text   			                                                            *
+  *                                                                             *
+  ******************************************************************************/
+
+  .text-judul {
+    -fx-font-family: 'OpenSans';
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4059a9;
+  }
+
+  .text-body {
+    -fx-font-family: 'OpenSans';
+    -fx-font-size: 10pt;
+  }
